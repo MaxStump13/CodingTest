@@ -13,6 +13,10 @@
 		3BC5F8CE28903C2A000562EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC5F8CD28903C2A000562EA /* Preview Assets.xcassets */; };
 		3BC5F8D028903C2A000562EA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5F8CF28903C2A000562EA /* Persistence.swift */; };
 		3BC5F8D328903C2A000562EA /* CodingTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5F8D128903C2A000562EA /* CodingTest.xcdatamodeld */; };
+		3BC5F8DD28903C79000562EA /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5F8DC28903C79000562EA /* Apartment.swift */; };
+		3BC5F8DF28903D83000562EA /* ApartmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5F8DE28903D83000562EA /* ApartmentViewModel.swift */; };
+		3BC5F8E1289041F6000562EA /* ApartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5F8E0289041F6000562EA /* ApartmentView.swift */; };
+		3BC5F8E328904B4A000562EA /* SingleApartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC5F8E228904B4A000562EA /* SingleApartmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		3BC5F8CD28903C2A000562EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BC5F8CF28903C2A000562EA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3BC5F8D228903C2A000562EA /* CodingTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodingTest.xcdatamodel; sourceTree = "<group>"; };
+		3BC5F8DC28903C79000562EA /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
+		3BC5F8DE28903D83000562EA /* ApartmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentViewModel.swift; sourceTree = "<group>"; };
+		3BC5F8E0289041F6000562EA /* ApartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentView.swift; sourceTree = "<group>"; };
+		3BC5F8E228904B4A000562EA /* SingleApartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleApartmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,9 @@
 		3BC5F8C528903C23000562EA /* CodingTest */ = {
 			isa = PBXGroup;
 			children = (
+				3BC5F8DB28903C51000562EA /* ViewModel */,
+				3BC5F8DA28903C4A000562EA /* View */,
+				3BC5F8D928903C42000562EA /* Model */,
 				3BC5F8C628903C23000562EA /* CodingTestApp.swift */,
 				3BC5F8C828903C23000562EA /* ContentView.swift */,
 				3BC5F8CA28903C2A000562EA /* Assets.xcassets */,
@@ -71,6 +82,31 @@
 				3BC5F8CD28903C2A000562EA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BC5F8D928903C42000562EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5F8DC28903C79000562EA /* Apartment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3BC5F8DA28903C4A000562EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5F8E0289041F6000562EA /* ApartmentView.swift */,
+				3BC5F8E228904B4A000562EA /* SingleApartmentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC5F8DB28903C51000562EA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5F8DE28903D83000562EA /* ApartmentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC5F8D028903C2A000562EA /* Persistence.swift in Sources */,
+				3BC5F8DF28903D83000562EA /* ApartmentViewModel.swift in Sources */,
 				3BC5F8C928903C23000562EA /* ContentView.swift in Sources */,
+				3BC5F8E1289041F6000562EA /* ApartmentView.swift in Sources */,
+				3BC5F8DD28903C79000562EA /* Apartment.swift in Sources */,
+				3BC5F8E328904B4A000562EA /* SingleApartmentView.swift in Sources */,
 				3BC5F8C728903C23000562EA /* CodingTestApp.swift in Sources */,
 				3BC5F8D328903C2A000562EA /* CodingTest.xcdatamodeld in Sources */,
 			);
