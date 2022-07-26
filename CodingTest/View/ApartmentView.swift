@@ -25,10 +25,10 @@ struct ApartmentView: View {
                 }
                     
             }.onAppear() {
-                ApartmentViewModel.getData(){
-                    self.viewModel.apartments = viewModel.apartments
+                ApartmentViewModel().getData()
+                    
                 }
-            }
+            
             .navigationTitle("Rented Apartments")
         
         }
